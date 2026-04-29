@@ -3,6 +3,7 @@ name = "persistent-env"
 version = "0.0.0"
 authors = ["Mavity The Madity"]
 edition = "2024"
+rust-version = "1.95.0"
 description = "Multi-platform persistent environment variable modification :)"
 homepage = "https://github.com/EpicVon2468/persistent-env/"
 repository = "https://github.com/EpicVon2468/persistent-env/"
@@ -11,3 +12,4 @@ keywords = ["env", "var"]
 
 [target.'cfg(windows)'.dependencies]
 windows-registry = "0"
+windows-result = "0"
