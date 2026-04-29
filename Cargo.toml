@@ -10,6 +10,16 @@ repository = "https://github.com/EpicVon2468/persistent-env/"
 license = "MIT OR Apache-2.0"
 keywords = ["env", "var"]
 
+[lib]
+name = "persistent_env"
+path = "src/persistent_env.rs"
+test = true
+doctest = false
+bench = false
+doc = true
+proc-macro = false
+harness = true
+
 [target.'cfg(windows)'.dependencies]
 windows-registry = "0"
 windows-result = "0"

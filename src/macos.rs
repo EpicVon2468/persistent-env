@@ -1,6 +1,9 @@
 #![cfg(target_os = "macos")]
 use crate::Result;
 
+// TODO: https://github.com/EpicVon2468/fixmyjavainstall/blob/master/apple/NOTES.txt
+// TODO: https://github.com/EpicVon2468/fixmyjavainstall/blob/master/apple/fuji.plist
+
 pub(crate) unsafe fn set_env_var_unchecked<K: AsRef<str>, V: AsRef<str>>(
 	key: K,
 	value: V,
