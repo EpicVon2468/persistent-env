@@ -4,6 +4,8 @@ version = "0.0.0"
 authors = ["Mavity The Madity"]
 edition = "2024"
 description = "Multi-platform persistent environment variable modification :)"
+homepage = "https://github.com/EpicVon2468/persistent-env/"
+repository = "https://github.com/EpicVon2468/persistent-env/"
 license = "MIT OR Apache-2.0"
 keywords = ["env", "var"]
 
