@@ -1,0 +1,11 @@
+[package]
+name = "persistent-env"
+version = "0.0.0"
+authors = ["Mavity The Madity"]
+edition = "2024"
+description = "Multi-platform persistent environment variable modification :)"
+license = "MIT OR Apache-2.0"
+keywords = ["env", "var"]
+
+[target.'cfg(windows)'.dependencies]
+windows-registry = "0"

@@ -1,0 +1,10 @@
+# Rust
+/target
+
+# OS-specific
+.DS_store
+Thumbs.db
+
+# Misc
+**/.direnv/
+.idea/
